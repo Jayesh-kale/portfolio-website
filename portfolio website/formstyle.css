@@ -1,0 +1,29 @@
+
+.tranformer{
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESE_h_-jhGJZpEIrUCTHRnqToSe3J3wZn_Q&s");
+  width: 400px;
+  height: 400px;
+  margin: 65px auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 9px 4px rgb(71, 65, 75);
+}
+.applyb{
+  text-align: center;
+}
+.applyb a{
+  background-color: cornflowerblue;
+  border: 2px solid #3f98c4;
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,247 @@
+.name{
+  font-size: 26px;
+  letter-spacing: 0.051em;
+  font-style: italic;
+  text-decoration: underline; 
+  color: darkcyan;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    animation: heading;
+    animation-duration: 1s;
+    animation-delay: 1ms;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes heading {
+    from {
+        margin-top: 15px;
+    }
+    to {margin-top: 0px;}
+  }
+
+.Toptions li{ 
+  margin-right: 3%; 
+}
+
+.Toptions{
+  height: inherit;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  line-height: 23px;
+}
+
+.Toptions li:hover{
+  cursor: pointer;
+  color: rgb(133, 164, 226);
+}
+
+/* .navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+} */
+
+ .navbar ul {
+    display: flex;
+    list-style-type: none;
+  } 
+  
+  .navbar li {
+    margin: 0 12px;
+  }
+
+.row{
+  height: 21rem;
+}
+
+.my-5:hover{
+  border: 1px solid black;
+  border-top-style: groove;
+}
+
+.myimg:hover{
+  box-shadow: 0px 0px 8px 4px rebeccapurple;
+}
+
+#colsm{
+  align-content: center;
+}
+
+.myprofile{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.assets img:hover{
+  box-shadow: 0px 0px 9px 2px white;
+  width: 26px;
+  cursor: pointer;
+}
+
+.myimg{
+  border-radius: 70px;
+  height: 17rem;
+  align-items: center;
+  margin-top: auto;
+}
+.buttons button{
+    border: 2px solid rgb(88, 164, 230);
+    color: rgb(88, 164, 230);
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+  font-size: 15px;
+  margin: 2rem 2rem 0rem 0rem;
+  border-radius: 5px;
+}
+.buttons button:hover{
+  border: 2px solid rgb(78, 160, 232);
+  color: white;
+  background-color: rgb(78, 160, 232);
+}
+.tenorgif{
+  border-radius: 11rem;
+}
+
+.thirdslide{
+  font-size: 33px;
+  letter-spacing: 2.88px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.skills{
+  line-height: 79px;
+  font-size: 20px;
+  letter-spacing: 0.473em;
+  font-style: normal;
+}
+.proficiency{
+  align-content: center;
+  font-size: 22px;
+  line-height: 44px;
+  letter-spacing: 0.085em;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.containerss {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 2rem;
+}
+
+.Fskill{ 
+  background-color: blue;
+  height: 14px;
+  border-radius: 2rem;
+  opacity: 0.5;
+}
+hr.new3 {
+  border-top: 1px dotted red;
+}
+.eduimag1{
+  width: 6rem;
+  border: 2px solid #887272;
+  border-radius: 54px;
+}
+.horizantal{
+   display: flex;
+   flex-direction: row;
+}
+.vertical{
+
+}
+
+.grid-container {
+  display: grid;
+  grid: 123px / auto auto auto auto auto;
+  grid-gap: 7px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* text-align: center;
+  padding: 20px 0; */
+  font-size: 30px;
+}
+.info{
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  font-style: italic;
+  font-weight: 600;
+  
+}
+.card-img-top{
+height: 4rem;
+  object-fit: contain;
+}
+.cheight{
+  width: 18rem;
+  height: 16rem;
+}
+
+.cblog{
+  width: 27rem;
+  height: 10rem;
+}
+.cblog:hover{
+  background-color: rgb(65, 82, 104);
+  color: #ddd;
+  cursor: pointer;
+  box-shadow: 2px 2px ;
+}
+.cblog p:hover{
+  text-decoration: underline;
+}
+.headline{
+  font-size: 33px;
+  line-height: 46px;
+  letter-spacing: -0.021em;
+  font-style: normal;
+  padding: 29px;
+  font-weight: 600;
+}
+.blockbody{
+  font-size: 19px;
+  line-height: 42px;
+  letter-spacing: 0.018em;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.5;
+}
+
+footer p{
+  background-color: aquamarine;
+  height: 33px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 38px;
+  letter-spacing: 0.021em;
+  font-weight: 600;
+  font-family: initial;
+  animation: final;
+  animation-duration: 1s;
+  animation-delay: 1ms;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes final {
+  from {
+      opacity: 0.5;
+      background-color: aliceblue;
+  }
+  to {
+    opacity: 1;
+    background-color: rgb(130, 146, 160);
+  }
+}
